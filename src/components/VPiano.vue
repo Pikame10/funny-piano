@@ -5,8 +5,9 @@
             <img :src="gifs">
         </div>
 
-        <div class="piano">
-            <svg width="691" height="448" viewBox="0 0 691 448" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div>
+            <svg class="piano" width="691" height="448" viewBox="0 0 691 448" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_d)">
                     <rect x="80" y="68" width="531" height="276" rx="10" fill="black" />
                     <path
@@ -177,24 +178,224 @@
 
 
 <style lang="postcss" scoped>
-    
-    .gif-container {
-        position: absolute;
-        width: 250px;
-        height: 200px;
-        left: 660px;
-        top: 129px;
+
+
+    @media only screen and (min-width: 1700px) and (max-width: 2500px) {
+        .gif-container {
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            left: 750px;
+            top: 129px;
+        }
+
+
+
+        .piano {
+            position: absolute;
+            width: 420px;
+            height: 276px;
+            left: 700px;
+            top: 410px;
+
+        }
+    }
+
+    @media only screen and (min-width: 1500px) and (max-width: 1700px) {
+        .gif-container {
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            left: 650px;
+            top: 129px;
+        }
+
+
+
+        .piano {
+            position: absolute;
+            width: 420px;
+            height: 276px;
+            left: 600px;
+            top: 410px;
+
+        }
+    }
+
+    @media only screen and (min-width: 1250px) and (max-width: 1500px) {
+        .gif-container {
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            left: 550px;
+            top: 129px;
+        }
+
+
+
+        .piano {
+            position: absolute;
+            width: 420px;
+            height: 276px;
+            left: 490px;
+            top: 410px;
+
+        }
     }
 
 
+    @media only screen and (min-width:1000px) and (max-width: 1250px) {
+        .gif-container {
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            left: 400px;
+            top: 129px;
+        }
 
-    .piano {
-        position: absolute;
-        width: 531px;
-        height: 276px;
-        left: 454px;
-        top: 388px;
 
-        filter: drop-shadow(0px 12px 80px rgba(0, 0, 0, 0.3));
+
+        .piano {
+            position: absolute;
+            width: 420px;
+            height: 276px;
+            left: 350px;
+            top: 410px;
+
+        }
+    }
+
+        @media only screen and (min-width: 850px) and (max-width: 1000px) {
+        .gif-container {
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            left: 270px;
+            top: 129px;
+        }
+
+
+
+        .piano {
+            position: absolute;
+            width: 420px;
+            height: 276px;
+            left: 220px;
+            top: 410px;
+
+        }
+    }
+
+    @media only screen and (min-width: 750px) and (max-width: 850px) {
+        .gif-container {
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            left: 210px;
+            top: 129px;
+        }
+
+
+
+        .piano {
+            position: absolute;
+            width: 420px;
+            height: 276px;
+            left: 160px;
+            top: 410px;
+
+        }
+    }
+
+
+    @media only screen and (min-width: 600px) and (max-width: 750px) {
+
+
+        .gif-container {
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            left: 180px;
+            top: 129px;
+        }
+
+
+
+        .piano {
+            position: absolute;
+            width: 420px;
+            height: 276px;
+            left: 130px;
+            top: 410px;
+
+        }
+    }
+
+    @media only screen and (min-width: 500px) and (max-width: 600px) {
+
+
+        .gif-container {
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            left: 110px;
+            top: 129px;
+        }
+
+
+
+        .piano {
+            position: absolute;
+            width: 420px;
+            height: 276px;
+            left: 60px;
+            top: 410px;
+
+        }
+    }
+
+    @media only screen and (min-width: 400px) and (max-width: 500px) {
+
+
+        .gif-container {
+            position: absolute;
+            width: 300px;
+            height: 50px;
+            left: 70px;
+            top: 129px;
+        }
+
+
+
+        .piano {
+            position: absolute;
+            width: 340px;
+            height: 256px;
+            left: 60px;
+            top: 410px;
+
+        }
+    }
+
+    @media only screen and (min-width: 200px) and (max-width: 400px) {
+
+        .gif-container {
+            position: absolute;
+            width: 250px;
+            height: 50px;
+            left: 60px;
+            top: 129px;
+        }
+
+
+
+        .piano {
+            position: absolute;
+            width: 340px;
+            height: 256px;
+            left: 20px;
+            top: 388px;
+
+        }
     }
 </style>
