@@ -109,24 +109,19 @@
 
 
 <script>
-    import {
-        GiphyFetch
-    } from '@giphy/js-fetch-api'
 
-
-
+    import { GiphyFetch } from '@giphy/js-fetch-api'
 
     export default {
 
         data() {
             return {
-
                 gifs: null
             };
         },
+
         mounted() {
             this.playSound();
-
         },
 
 
@@ -137,11 +132,9 @@
 
                 const gf = new GiphyFetch('hoc7Xw81iwUP2iewXhekupQznVmYDlHK')
 
-                const result = await gf.emoji({
-                    limit: 96
-                })
+                const result = await gf.emoji({ limit: 60 })
 
-                const RandomImage = Math.floor(Math.random() * Math.floor(96))
+                const RandomImage = Math.floor(Math.random() * Math.floor(60))
 
                 this.gifs = result.data[RandomImage].images.downsized.url
 

@@ -15,16 +15,18 @@
 <script>
     import VPiano from '@/components/VPiano'
 
-
     export default {
         components: {
             VPiano,
         }
     }
+
 </script>
 
 <style lang="postcss" scoped>
+   
     .Home {
+       
         content: '';
         display: block;
         height: 100%;
