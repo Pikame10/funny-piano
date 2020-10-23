@@ -1,14 +1,18 @@
 <template>
   <div id="app">
-    <h1>Bon courage !</h1>
+     <v-home></v-home>
   </div>
+ 
 </template>
 
 <script>
+import VHome from '@/components/VHome'
+
 
 export default {
   name: 'App',
   components: {
+    VHome,
   }
 }
 </script>
